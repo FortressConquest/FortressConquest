@@ -1,0 +1,220 @@
+/* Apply a dark background color to the body */
+body {
+	background-color: #2b2b2b;
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+	background-color: #444;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+	/* Style the logo */
+	header img {
+		height: 4.5rem;
+		border-radius: 40%;
+	}
+
+	header p {
+		font-size: 4rem;
+		margin-left: 10rem;
+		background: -webkit-linear-gradient(#700 , #e00);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+/* Style the navigation menu */
+nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: right;
+	align-items: end;
+	margin: 0;
+}
+
+nav li {
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Add a spacer to separate the logo from the navigation */
+header .spacer {
+	flex-grow: 1;
+}
+
+/* Apply a dark background color to the hero section */
+#hero {
+	background-color: #222;
+	padding: 5rem 0;
+	text-align: center;
+}
+
+	/* Style the hero section title and tagline */
+#hero h1 {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+}
+
+#hero p {
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+}
+
+/* Style the call-to-action button */
+.btn-primary {
+	display: inline-block;
+	padding: 1rem 2rem;
+	background-color: #dc3545;
+	color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+	.btn-primary:hover {
+		background-color: #c82333;
+	}
+
+/* Style the features section */
+#features {
+	padding: 3rem 0;
+}
+
+	#features h2 {
+		font-size: 3rem;
+		margin-bottom: 5rem;
+		text-align: center;
+	}
+
+	#features ul {
+		font-size: 1.5rem;
+		list-style: none;
+		padding-left: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-gap: 1rem;
+		margin-left: 2rem;
+	}
+
+	#features li {
+		position: relative;
+		margin-bottom: 2rem;
+		padding-left: 1.5rem;
+	}
+
+		#features li::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 1rem;
+			height: 1rem;
+			background-color: #dc3545;
+			border-radius: 50%;
+		}
+
+/* Style the screenshots section */
+#screenshots {
+	padding: 3rem 0;
+}
+
+	#screenshots h2 {
+		font-size: 3rem;
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 2rem;
+	margin-top: 2rem;
+}
+
+	.gallery img {
+		width: 100%;
+		height: auto;
+		border-radius: 4px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		transition: all 0.2s ease-in-out;
+	}
+
+		.gallery img:hover {
+			transform: scale(1.05);
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+		}
+
+
+/* Footer styles */
+footer {
+	background-color: #0d0d0d;
+	padding: 12px;
+	margin-top: 15rem;
+}
+
+	footer p {
+		font-size: 1.2rem;
+		margin: 0;
+	}
+		
+/* Body */
+body {
+	background-color: #1d1d1d;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+header {
+	display: flex;
+	align-items: center;
+	background-color: #292929;
+	color: #fff;
+	height: 80px;
+	padding: 0 20px;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+}
+
+	.logo img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+.nav-links {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-grow: 1;
+}
+
+	.nav-links a {
+		color: #fff;
+		text-decoration: none;
+		margin: 0 10px;
+		padding: 5px;
+		border-radius: 5px;
+	}
+
+		.nav-links a:hover {
+			background-color: #fff;
+			color: #292929;
+		}
+

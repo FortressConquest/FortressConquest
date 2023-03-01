@@ -1,0 +1,165 @@
+/* Apply a dark background color to the body */
+body {
+    background-color: #2b2b2b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #444;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* Style the logo */
+    header img {
+        height: 4.5rem;
+        border-radius: 40%;
+    }
+
+    header p {
+        font-size: 4rem;
+        margin-left: 10rem;
+        background: -webkit-linear-gradient(#700, #e00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+/* Style the navigation menu */
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: end;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add a spacer to separate the logo from the navigation */
+header .spacer {
+    flex-grow: 1;
+}
+
+
+/* Main styles */
+
+#hero {
+    background-color: #222;
+    padding: 5rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+    /* Style the hero section title and tagline */
+    #hero h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    #hero h2 {
+        font-size: 2.5rem;
+        text-decoration: underline;
+    }
+
+    #hero p {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    width: 35%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #2b2b2b;
+    border-radius: 5rem;
+    text-align: center;
+}
+
+    .team-member img {
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    .team-member h2 {
+        margin: 1rem 0;
+    }
+
+/* Footer styles */
+footer {
+    background-color: #0d0d0d;
+    padding: 12px;
+    margin-top: 15rem;
+}
+
+    footer p {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+/* Body */
+body {
+    background-color: #1d1d1d;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #292929;
+    color: #fff;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+    .logo img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+        .nav-links a:hover {
+            background-color: #fff;
+            color: #292929;
+        }
